@@ -63,10 +63,10 @@ As a result, some prep work was not implemented that would be used for future it
 ## Deployment
 
 The completed application is available for download on Github: 
-https://github.com/jenjch/project2
+https://github.com/OnTheRocks/CastCall.git
 
 The deployed application is hosted on Heroku:
-https://project2-020420.herokuapp.com/  
+ https://castcall.herokuapp.com 
 
 ## License
 
