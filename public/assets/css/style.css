@@ -70,14 +70,12 @@ padding-right: 25px;
 float: left;
 }
 
-/* .sendCollection, .deleteCollection {
-  margin-bottom: 15px;
-  margin-bottom: 15px;
-} */
+.text-info {
+  color: #1d2124!important;
+}
 
 .deleteCollection {
-  float: right;
-  margin-bottom: 4px;
+  margin-left: 4px;
 }
 
 .sendCollection {

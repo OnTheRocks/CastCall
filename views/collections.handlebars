@@ -1,7 +1,7 @@
 <body>
 
   <div class="jumbotron col-9">
-    <a class="btn btn-dark btn-xs btnLeft collectionHomeBtn" href="/" role="button">Home</a>
+    <a class="btn btn-dark btn-xs btnLeft collectionHomeBtn" href="/" role="button"><i class="fa fa-home "></i>Home</a>
     <h1 class="display-4 ">Welcome to Your Podcast Collections!</h1>
     <br>
 
@@ -13,7 +13,7 @@
       <div class="card">
         <div class="card-header" id="heading{{id}}">
           <h2 class="mb-0 text-center">
-            <button class="float-left btn btn-link collapsed text-info" type="button" data-toggle="collapse"
+            <button class="float-left btn  collapsed " type="button" data-toggle="collapse"
               data-target="#collapse{{id}}" aria-expanded="false" aria-controls="collapse{{id}}"><i
                 class="fa fa-plus"></i>
               {{!-- display the collection name and description col data in one line. Will be buttons for the accordion toggle --}}
@@ -55,7 +55,7 @@
               </table>
             </div>
             {{!-- Delete button triggers the api-route for delete by data-attribute on button (on click) --}}
-            <button type="button" data-collectionId="{{id}}" class="deleteCollection btn btn-danger btn-md"><i
+            <button type="button" data-collectionId="{{id}}" class="deleteCollection btn btn-dark btn-md"><i
                 class="fa fa-trash"></i> Delete</button>
 
             {{!-- name and email input fields captured by Send Collection button. POST in collections.js will send this and specific Collection info to backend. --}}
@@ -68,7 +68,7 @@
 
 
               <button data-collectionId="{{id}}" class="sendCollection micButton btn btn-dark btn-md"><i
-                  class="fa fa-microphone"></i>
+                  class="fa fa-envelope"></i>
                 Send
                 Collection</button>
             </form>
