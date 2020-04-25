@@ -1,11 +1,10 @@
 {
   "development": {
 
-    "username": "OnTheRocks",
-    "password": "OnTheRocks",
-
-    "database": "podcastsDB",
-    "host": "127.0.0.1",
+    "username": "ph32kmb9fbpq9m2o",
+    "password": "z1eu82jkhd972igk",
+    "database": "cu9o6fb6fj2kvqqv",
+    "host": "axxb6a0z2kydkco3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "port": 3306,
     "dialect": "mysql"
   },
@@ -17,6 +16,10 @@
     "dialect": "mysql"
   },
   "production": {
+    "username": "ph32kmb9fbpq9m2o",
+    "password": "z1eu82jkhd972igk",
+    "database": "cu9o6fb6fj2kvqqv",
+    "host": "axxb6a0z2kydkco3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "use_env_variable":"JAWSDB_URL",
     "dialect": "mysql"
   }
