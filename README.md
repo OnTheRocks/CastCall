@@ -55,7 +55,7 @@ As a result, some prep work was not implemented that would be used for future it
 ## Future Development
 
 1. Utilize our User model/associations and Passport to allow session authentication.
-2. Continue to add dynamic functionality to create, search, and share collections, including an     option to add others’ collections to your own profile. 
+2. Continue to add dynamic functionality to create, search, and share collections, including an option to add others’ collections to your own profile. 
 3. Enhanced UI/UX to support the iterative functionality of the app.
 4. Add social media sharing options to promote the application.
 5. Continue to curate podcast data to grow database and expand exploration of new podcasts.
